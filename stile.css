@@ -1,0 +1,308 @@
+body{
+    margin: 0px;
+    
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1600px;
+    padding:0 ;
+    margin: 0 ;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(/Layer\ 10.png) center center no-repeat;
+    background-size: cover;
+    color: white;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+.li__header__top{
+    list-style-type: none;
+    padding: 40px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.li__header__top:hover{
+    padding: 40px 25px;
+    transition: 1s;
+}   
+   
+   
+
+.li_and{
+    padding: 40px 230px 40px 20px;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.li_and:hover{
+    padding: 40px 230px 40px 25px;
+    transition: 1s;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.header__top{
+    display:flex;
+    justify-content:space-between;
+    
+}
+.startup{
+    margin: 25px 500px 40px 230px;
+    font-family: 'Montserrat', sans-serif;
+   
+    font-size: 24px;
+   font-weight: 700;
+    
+} 
+.welcome{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    margin: 0px;
+    
+}
+.your_favourite{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size:20px ;
+    
+}   
+.li__get__started{
+    display: flex;
+    justify-content: center;
+    border:2px solid white ;
+    border-radius: 2px;
+    padding: 10px 35px;
+    margin: 55px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+}
+.li__get__started:hover{
+background: rgb(150, 31, 31);
+
+
+}
+.header__bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 160px 0px 0px 0px;
+}
+
+
+.bottom{
+    width: 100%;
+    height: 100vh;
+}
+
+.bottom_inner_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.border{
+    margin: 30px;
+}
+.img_leaft{
+   
+    height:40px ;
+    width:50px ;
+    padding: 30px;
+   
+    
+}
+.img_leaft:hover{
+    content: url(/fa-font.png);
+    
+}
+.leaft_background{
+background: url(/ellips.png) center no-repeat;
+background-size: cover;
+height:80px ;
+width:80px ;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.leaft_background:hover{
+   background: url(/Ellipse\ 1.png);
+   background-size: cover;
+   
+}
+
+
+
+.clean_typography{
+    margin: 30px 0px 25px 0px;
+}
+.bottom_inner_center_leaft{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.leaft_text{
+    text-align: center;
+    width:345px ;
+
+}
+
+
+
+.div_img_center{
+    background: url(/ellips.png)  center no-repeat;
+    background-size: cover;
+   
+    height:80px ;
+    width:80px ;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div_img_center:hover{
+    background: url(/Ellipse\ 1.png);
+    background-size: cover;
+    
+}
+.img_center{
+    height:40px ;
+    width:50px ;
+    padding: 30px ;
+   
+}
+.img_center:hover{
+    content: url(/img_center_vhite.png);
+    margin: 30px;
+}
+.center_bacground{
+    display: flex;
+    justify-content: center;
+}
+.rock{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 25px 0px;
+}
+.bottom_inner_container{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 70px;
+}
+.center_text{
+    
+    text-align: center;
+    width:345px ;
+    
+
+}
+.div_img_and{
+    background: url(/ellips.png)  center no-repeat;
+    background-size: cover;
+   
+    height:80px ;
+    width:80px ;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_img_and:hover{
+    background: url(/Ellipse\ 1.png) center no-repeat;
+    background-size: cover;
+}
+.img_and{
+    height:40px ;
+    width:50px ;
+    padding: 30px ;
+}
+.img_and:hover{
+    content: url(/img_and_white.png);
+    margin: 30px;
+}
+.expert{
+    margin: 30px 0px 25px 0px;
+    display: flex;
+    justify-content: center;
+}
+.text_and{
+    text-align: center;
+    width:345px ; 
+}
+.bottom_inner_center_and{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.services{
+    padding-top: 100px;
+}
+.and{
+    background: url(/Rectangle\ 19.png) center no-repeat;
+    background-size: cover;
+    width:100%;
+    height:33.33%;
+
+}
+.bird{
+    width: 35px;
+    height: 35px;
+    margin: 100px 7px 30px 7px;
+    background: url(/Ellipse\ 3.png) center no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bird:hover{
+    background: url(/ellips.png) center;
+    background-size: cover;
+}
+.img_bird{
+   width: 17px;
+   height: 12px;
+   padding: 20px;
+
+}
+.img_bird:hover{
+    content: url(/fa-twitter.png) ;
+    width: 20px;
+    height: 15px;   
+}
+.and_conteiner_birds{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.designed{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
